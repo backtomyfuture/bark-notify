@@ -27,14 +27,7 @@ Bark is a free, open-source iOS app that lets you receive custom push notificati
 ### 2. Install the Skill
 
 ```bash
-# Amp
-amp skill add path/to/bark-notify
-
-# Claude Code
-claude skill add path/to/bark-notify
-
-# Or just clone to your skills directory
-git clone https://github.com/backtomyfuture/bark-notify ~/.agents/skills/bark-notify
+npx skills add backtomyfuture/bark-notify
 ```
 
 ### 3. Setup

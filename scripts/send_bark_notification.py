@@ -222,6 +222,13 @@ def encrypt_payload(payload: dict) -> Optional[dict]:
     iv_str = _cfg("BARK_ENCRYPT_IV", "")
 
     if not algo or not key_str:
+        sys.stderr.write(
+            "Encryption not configured. Set these in .env:\n"
+            "  BARK_ENCRYPT_ALGORITHM=AES256\n"
+            "  BARK_ENCRYPT_MODE=CBC\n"
+            "  BARK_ENCRYPT_KEY=your-32-byte-key-here!!!\n"
+            "  BARK_ENCRYPT_IV=your-16-byte-iv!!\n"
+        )
         return None
 
     mode = mode or "CBC"

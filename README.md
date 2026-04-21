@@ -34,7 +34,7 @@ amp skill add path/to/bark-notify
 claude skill add path/to/bark-notify
 
 # Or just clone to your skills directory
-git clone https://github.com/user/bark-notify ~/.agents/skills/bark-notify
+git clone https://github.com/backtomyfuture/bark-notify ~/.agents/skills/bark-notify
 ```
 
 ### 3. Setup

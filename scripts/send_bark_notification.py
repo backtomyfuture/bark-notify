@@ -9,7 +9,7 @@ id, delete, image, and AES encryption (CBC/ECB/GCM).
 Configuration is read from .env file in the skill directory.
 No external dependencies — uses only Python 3 stdlib.
 
-Repository: https://github.com/user/bark-notify
+Repository: https://github.com/backtomyfuture/bark-notify
 License:    MIT
 """
 import argparse
